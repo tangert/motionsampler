@@ -15,6 +15,27 @@
 		36F26A2822601491000B2A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A2622601491000B2A02 /* LaunchScreen.storyboard */; };
 		36F26A3322601492000B2A02 /* MotionSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F26A3222601492000B2A02 /* MotionSamplerTests.swift */; };
 		36F26A3E22601492000B2A02 /* MotionSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F26A3D22601492000B2A02 /* MotionSamplerUITests.swift */; };
+		36F26A4C22601BD9000B2A02 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F26A4B22601BD9000B2A02 /* SCNVector3+Extensions.swift */; };
+		36F26A4E22601C7E000B2A02 /* CMMotion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F26A4D22601C7E000B2A02 /* CMMotion+Extensions.swift */; };
+		36F26A6922601F8B000B2A02 /* scuffed-plastic-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5222601F8B000B2A02 /* scuffed-plastic-normal.png */; };
+		36F26A6A22601F8B000B2A02 /* scuffed-plastic-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5322601F8B000B2A02 /* scuffed-plastic-metal.png */; };
+		36F26A6B22601F8B000B2A02 /* scuffed-plastic-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5422601F8B000B2A02 /* scuffed-plastic-roughness.png */; };
+		36F26A6C22601F8B000B2A02 /* scuffed-plastic-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5522601F8B000B2A02 /* scuffed-plastic-albedo.png */; };
+		36F26A6D22601F8B000B2A02 /* rustediron-streaks-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5722601F8B000B2A02 /* rustediron-streaks-normal.png */; };
+		36F26A6E22601F8B000B2A02 /* rustediron-streaks-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5822601F8B000B2A02 /* rustediron-streaks-metal.png */; };
+		36F26A6F22601F8B000B2A02 /* rustediron-streaks-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5922601F8B000B2A02 /* rustediron-streaks-albedo.png */; };
+		36F26A7022601F8B000B2A02 /* rustediron-streaks-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5A22601F8B000B2A02 /* rustediron-streaks-roughness.png */; };
+		36F26A7122601F8B000B2A02 /* oakfloor2-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5C22601F8B000B2A02 /* oakfloor2-albedo.png */; };
+		36F26A7222601F8B000B2A02 /* oakfloor2-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5D22601F8B000B2A02 /* oakfloor2-normal.png */; };
+		36F26A7322601F8B000B2A02 /* oakfloor2-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A5E22601F8B000B2A02 /* oakfloor2-roughness.png */; };
+		36F26A7422601F8B000B2A02 /* bamboo-wood-semigloss-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A6022601F8B000B2A02 /* bamboo-wood-semigloss-normal.png */; };
+		36F26A7522601F8B000B2A02 /* bamboo-wood-semigloss-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A6122601F8B000B2A02 /* bamboo-wood-semigloss-roughness.png */; };
+		36F26A7622601F8B000B2A02 /* bamboo-wood-semigloss-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A6222601F8B000B2A02 /* bamboo-wood-semigloss-metal.png */; };
+		36F26A7722601F8B000B2A02 /* bamboo-wood-semigloss-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A6322601F8B000B2A02 /* bamboo-wood-semigloss-albedo.png */; };
+		36F26A7822601F8B000B2A02 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A6522601F8B000B2A02 /* sphere.obj */; };
+		36F26A7922601F8B000B2A02 /* spherical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A6722601F8B000B2A02 /* spherical.jpg */; };
+		36F26A7A22601F8B000B2A02 /* sphericalBlurred.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F26A6822601F8B000B2A02 /* sphericalBlurred.png */; };
+		36F26A7C22602152000B2A02 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F26A7B22602152000B2A02 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +70,27 @@
 		36F26A3922601492000B2A02 /* MotionSamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionSamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F26A3D22601492000B2A02 /* MotionSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSamplerUITests.swift; sourceTree = "<group>"; };
 		36F26A3F22601492000B2A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F26A4B22601BD9000B2A02 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		36F26A4D22601C7E000B2A02 /* CMMotion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMMotion+Extensions.swift"; sourceTree = "<group>"; };
+		36F26A5222601F8B000B2A02 /* scuffed-plastic-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-normal.png"; sourceTree = "<group>"; };
+		36F26A5322601F8B000B2A02 /* scuffed-plastic-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-metal.png"; sourceTree = "<group>"; };
+		36F26A5422601F8B000B2A02 /* scuffed-plastic-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-roughness.png"; sourceTree = "<group>"; };
+		36F26A5522601F8B000B2A02 /* scuffed-plastic-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-albedo.png"; sourceTree = "<group>"; };
+		36F26A5722601F8B000B2A02 /* rustediron-streaks-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-normal.png"; sourceTree = "<group>"; };
+		36F26A5822601F8B000B2A02 /* rustediron-streaks-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-metal.png"; sourceTree = "<group>"; };
+		36F26A5922601F8B000B2A02 /* rustediron-streaks-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-albedo.png"; sourceTree = "<group>"; };
+		36F26A5A22601F8B000B2A02 /* rustediron-streaks-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-roughness.png"; sourceTree = "<group>"; };
+		36F26A5C22601F8B000B2A02 /* oakfloor2-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-albedo.png"; sourceTree = "<group>"; };
+		36F26A5D22601F8B000B2A02 /* oakfloor2-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-normal.png"; sourceTree = "<group>"; };
+		36F26A5E22601F8B000B2A02 /* oakfloor2-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-roughness.png"; sourceTree = "<group>"; };
+		36F26A6022601F8B000B2A02 /* bamboo-wood-semigloss-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-normal.png"; sourceTree = "<group>"; };
+		36F26A6122601F8B000B2A02 /* bamboo-wood-semigloss-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-roughness.png"; sourceTree = "<group>"; };
+		36F26A6222601F8B000B2A02 /* bamboo-wood-semigloss-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-metal.png"; sourceTree = "<group>"; };
+		36F26A6322601F8B000B2A02 /* bamboo-wood-semigloss-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-albedo.png"; sourceTree = "<group>"; };
+		36F26A6522601F8B000B2A02 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		36F26A6722601F8B000B2A02 /* spherical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spherical.jpg; sourceTree = "<group>"; };
+		36F26A6822601F8B000B2A02 /* sphericalBlurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sphericalBlurred.png; sourceTree = "<group>"; };
+		36F26A7B22602152000B2A02 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +141,13 @@
 		36F26A1A22601490000B2A02 /* MotionSampler */ = {
 			isa = PBXGroup;
 			children = (
+				36F26A4F22601F8B000B2A02 /* Assets */,
 				36F26A1B22601490000B2A02 /* AppDelegate.swift */,
 				36F26A1D22601490000B2A02 /* art.scnassets */,
 				36F26A1F22601490000B2A02 /* ViewController.swift */,
+				36F26A4D22601C7E000B2A02 /* CMMotion+Extensions.swift */,
+				36F26A7B22602152000B2A02 /* UIColor+Extensions.swift */,
+				36F26A4B22601BD9000B2A02 /* SCNVector3+Extensions.swift */,
 				36F26A2122601490000B2A02 /* Main.storyboard */,
 				36F26A2422601491000B2A02 /* Assets.xcassets */,
 				36F26A2622601491000B2A02 /* LaunchScreen.storyboard */,
@@ -126,6 +172,87 @@
 				36F26A3F22601492000B2A02 /* Info.plist */,
 			);
 			path = MotionSamplerUITests;
+			sourceTree = "<group>";
+		};
+		36F26A4F22601F8B000B2A02 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				36F26A5022601F8B000B2A02 /* Materials */,
+				36F26A6422601F8B000B2A02 /* Objects */,
+				36F26A6622601F8B000B2A02 /* Environment */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		36F26A5022601F8B000B2A02 /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				36F26A5122601F8B000B2A02 /* scuffed-plastic */,
+				36F26A5622601F8B000B2A02 /* rustediron-streaks */,
+				36F26A5B22601F8B000B2A02 /* oakfloor2 */,
+				36F26A5F22601F8B000B2A02 /* bamboo-wood-semigloss */,
+			);
+			path = Materials;
+			sourceTree = "<group>";
+		};
+		36F26A5122601F8B000B2A02 /* scuffed-plastic */ = {
+			isa = PBXGroup;
+			children = (
+				36F26A5222601F8B000B2A02 /* scuffed-plastic-normal.png */,
+				36F26A5322601F8B000B2A02 /* scuffed-plastic-metal.png */,
+				36F26A5422601F8B000B2A02 /* scuffed-plastic-roughness.png */,
+				36F26A5522601F8B000B2A02 /* scuffed-plastic-albedo.png */,
+			);
+			path = "scuffed-plastic";
+			sourceTree = "<group>";
+		};
+		36F26A5622601F8B000B2A02 /* rustediron-streaks */ = {
+			isa = PBXGroup;
+			children = (
+				36F26A5722601F8B000B2A02 /* rustediron-streaks-normal.png */,
+				36F26A5822601F8B000B2A02 /* rustediron-streaks-metal.png */,
+				36F26A5922601F8B000B2A02 /* rustediron-streaks-albedo.png */,
+				36F26A5A22601F8B000B2A02 /* rustediron-streaks-roughness.png */,
+			);
+			path = "rustediron-streaks";
+			sourceTree = "<group>";
+		};
+		36F26A5B22601F8B000B2A02 /* oakfloor2 */ = {
+			isa = PBXGroup;
+			children = (
+				36F26A5C22601F8B000B2A02 /* oakfloor2-albedo.png */,
+				36F26A5D22601F8B000B2A02 /* oakfloor2-normal.png */,
+				36F26A5E22601F8B000B2A02 /* oakfloor2-roughness.png */,
+			);
+			path = oakfloor2;
+			sourceTree = "<group>";
+		};
+		36F26A5F22601F8B000B2A02 /* bamboo-wood-semigloss */ = {
+			isa = PBXGroup;
+			children = (
+				36F26A6022601F8B000B2A02 /* bamboo-wood-semigloss-normal.png */,
+				36F26A6122601F8B000B2A02 /* bamboo-wood-semigloss-roughness.png */,
+				36F26A6222601F8B000B2A02 /* bamboo-wood-semigloss-metal.png */,
+				36F26A6322601F8B000B2A02 /* bamboo-wood-semigloss-albedo.png */,
+			);
+			path = "bamboo-wood-semigloss";
+			sourceTree = "<group>";
+		};
+		36F26A6422601F8B000B2A02 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				36F26A6522601F8B000B2A02 /* sphere.obj */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		36F26A6622601F8B000B2A02 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				36F26A6722601F8B000B2A02 /* spherical.jpg */,
+				36F26A6822601F8B000B2A02 /* sphericalBlurred.png */,
+			);
+			path = Environment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +359,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F26A7A22601F8B000B2A02 /* sphericalBlurred.png in Resources */,
+				36F26A6E22601F8B000B2A02 /* rustediron-streaks-metal.png in Resources */,
+				36F26A6922601F8B000B2A02 /* scuffed-plastic-normal.png in Resources */,
+				36F26A7322601F8B000B2A02 /* oakfloor2-roughness.png in Resources */,
+				36F26A7022601F8B000B2A02 /* rustediron-streaks-roughness.png in Resources */,
+				36F26A7422601F8B000B2A02 /* bamboo-wood-semigloss-normal.png in Resources */,
+				36F26A6A22601F8B000B2A02 /* scuffed-plastic-metal.png in Resources */,
 				36F26A1E22601490000B2A02 /* art.scnassets in Resources */,
+				36F26A7922601F8B000B2A02 /* spherical.jpg in Resources */,
+				36F26A7622601F8B000B2A02 /* bamboo-wood-semigloss-metal.png in Resources */,
+				36F26A6F22601F8B000B2A02 /* rustediron-streaks-albedo.png in Resources */,
+				36F26A7222601F8B000B2A02 /* oakfloor2-normal.png in Resources */,
+				36F26A7722601F8B000B2A02 /* bamboo-wood-semigloss-albedo.png in Resources */,
+				36F26A6B22601F8B000B2A02 /* scuffed-plastic-roughness.png in Resources */,
 				36F26A2822601491000B2A02 /* LaunchScreen.storyboard in Resources */,
+				36F26A7522601F8B000B2A02 /* bamboo-wood-semigloss-roughness.png in Resources */,
+				36F26A7822601F8B000B2A02 /* sphere.obj in Resources */,
+				36F26A6D22601F8B000B2A02 /* rustediron-streaks-normal.png in Resources */,
 				36F26A2522601491000B2A02 /* Assets.xcassets in Resources */,
+				36F26A6C22601F8B000B2A02 /* scuffed-plastic-albedo.png in Resources */,
+				36F26A7122601F8B000B2A02 /* oakfloor2-albedo.png in Resources */,
 				36F26A2322601490000B2A02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +406,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F26A2022601490000B2A02 /* ViewController.swift in Sources */,
+				36F26A7C22602152000B2A02 /* UIColor+Extensions.swift in Sources */,
+				36F26A4E22601C7E000B2A02 /* CMMotion+Extensions.swift in Sources */,
+				36F26A4C22601BD9000B2A02 /* SCNVector3+Extensions.swift in Sources */,
 				36F26A1C22601490000B2A02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
